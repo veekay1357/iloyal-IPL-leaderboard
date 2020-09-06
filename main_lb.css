@@ -1,0 +1,51 @@
+#Gameresult {
+	left: 10px;
+	top:50px;
+   width: 500px;
+   height: 400px;
+   background-color: #87CEFA;
+}
+
+#Leaderboard {
+	left:150px;
+	top:50px;
+	width: 350px;
+   height: 400px;
+   background-color: #6495ED	;
+   overflow-y: auto;
+
+}
+
+#LeaderboardTable thead tbody {
+	display: block;
+	overflow-y: auto;
+	overflow-x: hidden;
+
+}
+
+#LeaderboardTable tbody {
+	height: 150px;
+	
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+table tbody {
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.table-row-odd {
+	background-color: #00CED1;
+}
+
+.table-row-even {
+	background-color: #20B2AA;
+}
+.credit-row-odd {
+	background-color: rgb(238,130,238);
+}
+
+.credit-row-even {
+	background-color: rgb(218,112,214);
+}

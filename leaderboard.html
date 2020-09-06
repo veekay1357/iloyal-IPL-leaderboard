@@ -1,0 +1,83 @@
+<html>
+<head>
+	<title>Leader Board</title>
+	<link rel="stylesheet" type="text/css" href="main_lb.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.js"></script>
+	<script type="text/javascript" src="sort-table.min.js"></script>
+	<script type="text/javascript" src="leaderboard.js"></script>
+</head>
+<body>
+<h1 align="center">Leader Board</h1>
+<div id="logoDiv">
+	<img id="IPL-teams-id" src="IPL-T20-teams.png" alt="logo" width="1000px" height="200px" />
+</div>
+<table>
+	<tr>
+		<td>
+			<div id="Gameresult">
+			   <table id="GameResultTable" class="js-sort-table" style="overflow-y: auto;">
+			   	  <tr>
+			   	    <th width="120px">Game</th>
+			   	    <th width="120px" class="js-sort-string">First</th>
+			   	    <th width="120px">Second</th>
+			   	    <th width="120px">Third</th>
+			   	  </tr>
+			   	  <!-- <tr class="table-row-odd">
+			   	  	 <td align="center">CSK vs MI</td>
+			   	  	 <td align="center">Sanal Thomas</td>
+			   	  	 <td align="center">Srikanth</td>
+			   	  	 <td align="center">Vivekanand</td>
+			   	  </tr>
+			   	   <tr class="table-row-even">
+			   	  	 <td align="center">DC vs RCB</td>
+			   	  	 <td align="center">Shankar Maharajan</td>
+			   	  	 <td align="center">Prasanth T</td>
+			   	  	 <td align="center">Kichu M S</td>
+			   	  </tr>
+			   	   <tr class="table-row-odd">
+			   	  	 <td align="center">CSK vs MI</td>
+			   	  	 <td align="center">Sanal Thomas</td>
+			   	  	 <td align="center">Srikanth</td>
+			   	  	 <td align="center">Vivekanand</td>
+			   	  </tr> -->
+			   </table>
+			</div>
+		</td>
+		<td width="130px">
+			
+		</td>
+		<td>
+			<div id="Leaderboard">
+				<table id="LeaderBoardTable" align="center" class="sortable" >
+			   	  <thead>
+				   	  <tr>
+				   	    <th>Name</th>
+				   	    <th>Credits</th>
+				   	    
+				   	  </tr>
+			   	  </thead>
+			   	  <tbody>
+				   	  <tr class="credit-row-odd">
+				   	  	 <td align="center">Sanal Thomas</td>
+				   	  	 <td align="center">10</td>
+				   	  	 
+				   	  </tr>
+				   	  <tr class="credit-row-even">
+				   	  	 <td align="center">Shankar Maharajan</td>
+				   	  	 <td align="center">15</td>
+				   	  	 
+				   	  </tr>
+				   	  <tr class="credit-row-odd">
+				   	  	 <td align="center">Srikanth</td>
+				   	  	 <td align="center">5</td>
+				   	  	 
+				   	  </tr>
+			   	  </tbody>
+			   </table>
+			</div>
+		</td>
+	</tr>
+</table>
+</body>
+
+</html>
