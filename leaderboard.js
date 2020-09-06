@@ -3,41 +3,374 @@ window.onload = function constructTable() {
 
     var gameResult = [
         {
+            "No":1,
         	"Game":"MI vs GL",
         	"First":"Bindu John",
         	"Second":"Jomon",
         	"Third":"Shanu"
         },
         {
-        	"Game":"KKR vs DC",
-        	"First":"Naziya",
-        	"Second":"Ashok",
-        	"Third":"Blesson"
-        }
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
+        {
+            "No":1,
+        	"Game":"MI vs GL",
+        	"First":"Bindu John",
+        	"Second":"Jomon",
+        	"Third":"Shanu"
+        },
 
     ]
 
 var leaderboard =[
-    {  "Name":"Shrikanth",
-       "Credits":"10"
-    },
     {  "Name":"Arun kumar",
-       "Credits":"20"
+       "Credits":"20",
+       "Credits-week":"50"
     },
     {  "Name":"Drisya",
-       "Credits":"15"
+       "Credits":"15",
+       "Credits-week":"50"
     },
     {  "Name":"Drisya",
-       "Credits":"15"
+       "Credits":"15",
+       "Credits-week":"50"
     },
     {  "Name":"Drisya",
-       "Credits":"15"
+       "Credits":"15",
+       "Credits-week":"50"
     },
     {  "Name":"Drisya",
-       "Credits":"15"
+       "Credits":"15",
+       "Credits-week":"50"
     },
     {  "Name":"Drisya",
-       "Credits":"15"
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya Manohara Sandhanam Gopala Mohanan Achary Mattorkavu",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya Manohara Sandhanam Gopala Mohanan Achary Mattorkavu",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
+    },
+    {  "Name":"Drisya",
+       "Credits":"15",
+       "Credits-week":"50"
     }
     ]
 
@@ -78,7 +411,6 @@ var leaderboard =[
             }
             for (var j = 0; j < col.length; j++) {
                 var tabCell = tr.insertCell(-1);
-
                 tabCell.innerHTML = gameResult[i][col[j]];
             }
         }
