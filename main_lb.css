@@ -11,19 +11,20 @@
 	color: #615f5e;
 }
 .main-image img{
-	height: 350px;
+	height: 220px;
 }
 ::-webkit-scrollbar {
-	width: 10px;
+	width: 8px;
 }
 ::-webkit-scrollbar-track {
 	background: #f1f1f1; 
 }
 ::-webkit-scrollbar-thumb {
-	background: #888; 
+	background: #5a4f4f; 
+	border-radius: 6px;
 }
 ::-webkit-scrollbar-thumb:hover {
-	background: #555; 
+	background: #3a3434; 
 }
 
 #LeaderboardTable thead tbody {
