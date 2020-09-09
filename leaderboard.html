@@ -18,13 +18,14 @@
 		<img id="IPL-teams-id" class="w-100" src="IPL-T20-teams.png" alt="logo" />
 	</div>
 	<div id="Gameresult" class="float-left p-3 result-table">
+		<a data-toggle="modal" data-target="#gameModal" class="d-none" id="modal-click"></a>
 		<table id="GameResultTable" class="js-sort-table w-100">
 			<tr>
-				<th style="width:5%" class="text-center">No</th>
-				<th style="width:20%" data-toggle="modal" data-target="#gameModal" class="text-center">Game</th>
-				<th style="width:25%" class="text-center js-sort-string">First</th>
-				<th style="width:25%" class="text-center">Second</th>
-				<th style="width:25%" class="text-center">Third</th>
+				<th style="width:8%" class="text-center">No</th>
+				<th style="width:20%" class="text-center">Game</th>
+				<th style="width:24%" class="text-center js-sort-string">First</th>
+				<th style="width:24%" class="text-center">Second</th>
+				<th style="width:24%" class="text-center">Third</th>
 			</tr>
 			<!-- <tr class="table-row-odd">
 			   	  	 <td align="center">CSK vs MI</td>
@@ -62,24 +63,35 @@
 
 	<div id="gameModal" class="modal" tabindex="-1" role="dialog">
 		<div class="modal-dialog modal-lg" role="document">
-		  <div class="modal-content">
-			<div class="modal-header">
-			  <h5 class="modal-title">GAME NAME</h5>
-			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				<span aria-hidden="true">&times;</span>
-			  </button>
-			</div>
-			<div class="modal-body">
-				<div id="logoDiv" class="w-100 main-image">
-					<img id="IPL-teams-id" class="w-100" src="IPL-T20-teams.png" alt="logo" />
+			<div class="modal-content">
+				<div class="modal-header">
+					<div id="modaltitle"></div>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div id="modalimage" id="logoDiv" class="w-100 main-image">
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				</div>
 			</div>
-			<div class="modal-footer">
-			  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			</div>
-		  </div>
 		</div>
-	  </div>
+	</div>
+	<script>
+		function gameidClicked(id,name,url){
+			document.getElementById('modaltitle').innerHTML="<h5 id='modaltitle' class='modal-title'>"+id +" "+name+"</h5>";
+			document.getElementById('modalimage').innerHTML="<img id='modalimage' class='w-100' src="+url+" alt='logo' />";
+			document.getElementById('modal-click').click();
+		}
+		function gameNameClicked(id,name,url){
+			document.getElementById('modaltitle').innerHTML="<h5 id='modaltitle' class='modal-title'>"+id +" "+name+"</h5>";
+			document.getElementById('modalimage').innerHTML="<img id='modalimage' class='w-100' src="+url+" alt='logo' />";
+			document.getElementById('modal-click').click();
+        }
+	</script>
 </body>
 
 </html>
