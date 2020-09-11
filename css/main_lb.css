@@ -1,0 +1,89 @@
+.result-table {
+	width: 50%;
+	max-height: 400px;
+	overflow-y: auto;
+   	background-color: #87CEFA;
+}
+.main-heading-text{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 54px;
+	font-weight: 600;
+	color: #615f5e;
+}
+.main-image img{
+	height: 220px;
+}
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+	background: #5a4f4f; 
+	border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #3a3434; 
+}
+
+#LeaderboardTable thead tbody {
+	display: block;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#LeaderboardTable tbody {
+	height: 150px;
+	
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+table tbody {
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.table-row-odd td,.table-row-even td{
+	padding: 10px;
+	cursor: pointer;
+}
+.table-row-odd:hover,.table-row-even:hover{
+	opacity: 0.7;;
+}
+.table-row-odd {
+	background-color: #00CED1;
+	text-align: center;
+	word-break: break-all;
+}
+.table-row-even {
+	background-color: #20B2AA;
+	text-align: center;
+	word-break: break-all;
+}
+.credit-row-odd td,.credit-row-even td{
+	padding: 10px;
+}
+.credit-row-odd:hover,.credit-row-even:hover{
+	opacity: 0.7;;
+}
+.credit-row-odd {
+	background-color: rgb(238,130,238);
+	text-align: center;
+	word-break: break-all;
+}
+
+.credit-row-even {
+	background-color: rgb(218,112,214);
+	text-align: center;
+	word-break: break-all;
+}
+@media(max-width:991px){
+	.result-table {
+		width: 100%;
+	}
+}
+
+a {
+   
+  color: hotpink;
+}
