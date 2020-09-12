@@ -1,0 +1,20 @@
+[
+        {
+            "rank":"3",
+            "Name": "Arun kumar",
+            "Credits": "20",
+            "Credits-week": "50"
+        },
+        {
+            "rank":"1",
+            "Name": "Shankar",
+            "Credits": "15",
+            "Credits-week": "50"
+        },
+        {
+            "rank":"2",
+            "Name": "Srikanth",
+            "Credits": "15",
+            "Credits-week": "50"
+        }
+    ]

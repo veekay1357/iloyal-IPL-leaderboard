@@ -71,6 +71,7 @@ window.onload = function constructTable() {
 	$.getJSON( "http://localhost:8085/js/leaderboard_data.json", function( lb_data ) {
             console.log(lb_data);
     
+        
     var col = [];
     for (var i = 0; i < lb_data.length; i++) {
         for (var key in lb_data[i]) {
@@ -91,14 +92,59 @@ window.onload = function constructTable() {
         } else {
             tr.className = "credit-row-odd";
         }
+        var tabCell = tr.insertCell(-1);
+        tabCell.innerHTML = "<img src=\"/img/uparrow.png\" style=\"width:10px;height:20px\"/>";
         for (var j = 0; j < col.length; j++) {
-            var tabCell = tr.insertCell(-1);
+            tabCell = tr.insertCell(-1);
             tabCell.align = "center";
             tabCell.innerHTML = lb_data[i][col[j]];
         }
     }
  });
 
+ $.getJSON( "http://localhost:8085/js/leaderboard_data_prev.json", function(prevdata) {
+		 $.getJSON( "http://localhost:8085/js/leaderboard_data_cur.json", function(curdata) {
+		  console.log(prevdata);
+		  console.log(curdata);
+		  
+		  var prev_col=[];
+		  var cur_col=[];
+		  for (var i = 0; i < prevdata.length; i++) {
+       		 for (var key in prevdata[i]) {
+             if (prev_col.indexOf(key) === -1) {
+                prev_col.push(key);
+	            }
+	        }
+	    }
+    
+    for (var i = 0; i < curdata.length; i++) {
+       		 for (var key in curdata[i]) {
+             if (cur_col.indexOf(key) === -1) {
+                cur_col.push(key);
+	            }
+	        }
+	    }
+    
+        for (var i = 0; i < prevdata.length; i++) {
+          
+           console.log(prevdata[i][prev_col[1]]);
+	            for (var k = 0; k < curdata.length; k++) {
+                   
+                       if (prevdata[i][prev_col[1]] == curdata[k][cur_col[1]]) { 
+                           if (Number(prevdata[i][prev_col[0]]) >  Number(curdata[k][cur_col[0]])) {
+                                 console.log(prevdata[i][prev_col[1]] + " rank moves up");
+	                       } else if (Number(prevdata[i][prev_col[0]]) <  Number(curdata[k][cur_col[0]])) {
+	                             console.log(prevdata[i][prev_col[1]] + " rank moves down " + Number(prevdata[i][prev_col[0]]) + "  " +  Number(curdata[k][cur_col[0]]));
+	                       }
+                       }
+                       
+                   
+	        	}
+        	
+        }
+		 });
+       
+ });
     function readTextFile(file, callback) {
         var rawFile = new XMLHttpRequest();
         rawFile.overrideMimeType("application/json");
