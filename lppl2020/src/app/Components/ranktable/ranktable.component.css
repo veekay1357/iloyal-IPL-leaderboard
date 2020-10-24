@@ -1,0 +1,98 @@
+/*
+.upImg {
+   background-image: url('../../../assets/images/uparrow.png');
+   padding: 0px 7px;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+/.downImg {
+    background-image: url('../../../assets/images/downarrow.png');
+    padding: 0px 7px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+*/
+.rankdata{
+    display: none;
+}
+.upImg:hover .rankdata{
+    display: block;
+    position: absolute;
+
+}
+.downImg:hover .rankdata{
+    display: block;
+    position: absolute;
+}
+
+.sortArrow {
+    width:10%;
+    height:10%;
+    opacity: inherit;
+}
+
+.evenRow {
+    background-color: #b8d1f3;
+}
+.oddRow {
+    background-color: #dae5f4;
+}
+
+.font-header {
+    font-weight: 500;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.arrowClass {
+    width:35px;
+    height: 35px;
+    padding: 2px 0px;
+}
+
+.moveIndicator {
+    
+    padding: 0px 7px;
+    color: #fff;
+    z-index: 1;
+    font-size: 15px;
+}
+
+.uparrowClass {
+    background-image: url("../../../assets/images/uparrow.svg");
+    padding: 7px;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.downarrowClass {
+    background-image: url("../../../assets/images/downarrow.svg");
+    padding: 7px;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media(max-width:767.98px) {
+    .font-header {
+        font-weight: 500;
+        font-size: 10px;
+        font-family: sans-serif;
+    } 
+
+    .arrowClass {
+        width:30px;
+        height: 30px;
+        padding: 2px 0px;
+    }
+
+    .moveIndicator {
+     padding: 0px 9px;
+    font-size: 13px;
+    }
+    .sortArrow {
+        width:12%;
+        height:7%;
+        
+    }
+}

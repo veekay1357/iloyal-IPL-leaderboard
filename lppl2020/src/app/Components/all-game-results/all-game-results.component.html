@@ -1,0 +1,50 @@
+
+<div>
+    <a data-toggle="modal" data-target="#gameModal" class="d-none" id="modal-click"></a>
+    <table id="GameResultTable" class="js-sort-table w-100" style="border: 3px solid black">
+        <tr class="tab-header-gr font-header" >
+            <th style="width:8%;" class="text-center">No</th>
+            <th style="width:100%;" class="text-center d-none d-sm-none d-md-block">Date</th>
+            <th style="width:15%;" class="text-center">Game</th>
+            <th style="width:21%;" class="text-center">Man of the Match</th>
+            <th style="width:21%;" class="text-center">Valuable Player</th>
+            <th style="width:20%;" class="text-center">Emerging Player</th>
+        </tr>
+        <tr *ngFor="let gameresult of allgameRes;let i = index" [ngClass]="i%2==0?'colorred':'colorblue'">
+            <td class="text-center">
+                <a style="text-decoration: underline;color:blue"
+                    (click)="gameidClicked(gameresult.No,gameresult.Game,gameresult.idUrl)">{{gameresult.No}}</a>
+            </td>
+            <td class="text-center d-none d-sm-none d-md-block">{{gameresult.Date}}</td>
+            <td class="text-center">
+                <a style="text-decoration: underline;color:blue"
+                    (click)="gameNameClicked(gameresult.No,gameresult.Game,gameresult.nameUrl)">{{gameresult.Game}}</a>
+            </td>
+            <td class="text-center">{{gameresult.First}}</td>
+            <td class="text-center">{{gameresult.Second}}</td>
+            <td class="text-center">{{gameresult.Third}}</td>
+        </tr>
+
+    </table>
+</div>
+
+<div id="gameModal" class="modal" tabindex="-1" role="dialog" [style.display]="showModal ? 'block':'none'">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div id="modaltitle"><h5 id='modaltitle' class='modal-title'>{{idTitle}}</h5></div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="hide()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="modalimage" id="logoDiv" class="main-image-modal">
+                    <img id='modalimage' src={{idUrl}} alt='logo' />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" (click)="hide()">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

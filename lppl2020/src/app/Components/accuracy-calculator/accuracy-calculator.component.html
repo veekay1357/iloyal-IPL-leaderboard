@@ -1,0 +1,326 @@
+<div>
+    <div class="score-tables-odd">
+        <p style="color: crimson;font-weight: 600;text-align: center;"> Total runs</p>
+        <table class="table-bordered table-dark table-bordered">
+            <tr>
+                <td colspan="3" style="text-align: center;">Actual score -
+                    <input type="text" [(ngModel)]="totalRuns" (input)="validateScore()"></td>
+
+            </tr>
+            <tr>
+                <td>Lower Range</td>
+                <td>Upper Range</td>
+                <td>Your Score</td>
+            </tr>
+            <tr *ngFor="let range of ranges">
+                <td>{{range.lower}}</td>
+                <td>{{range.upper}}</td>
+                <td>{{range.score}}</td>
+            </tr>
+             <tr>
+                <td>{{totalRuns-10}} - {{totalRuns-1}}</td>
+                <td>{{totalRuns + 1}} - {{totalRuns+10}}</td>
+                <td>15</td>
+            </tr>
+            <!--<tr>
+                <td>{{totalRuns-20}} - {{totalRuns-11}}</td>
+                <td>{{totalRuns + 11}} - {{totalRuns+20}}</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>-->
+        </table> 
+    </div>
+
+    <!-- <div class="score-tables-even">
+        <p style="color: crimson;font-weight: 600;text-align: center;"> Total Boundaries</p>
+        <table class="table-bordered table-dark">
+            <tr>
+                <td colspan="2">Actual score - {{totalRuns}}</td>
+
+            </tr>
+            <tr>
+                <td>Lower Range</td>
+                <td>Upper Range</td>
+                <td>Your Score</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-10}} - {{totalRuns-1}}</td>
+                <td>{{totalRuns + 1}} - {{totalRuns+10}}</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-20}} - {{totalRuns-11}}</td>
+                <td>{{totalRuns + 11}} - {{totalRuns+20}}</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+        </table>
+    </div>
+    <div class="score-tables-odd">
+        <p style="color: crimson;font-weight: 600;text-align: center;"> Total runs</p>
+        <table class="table-bordered table-dark table-bordered">
+            <tr>
+                <td colspan="3" style="text-align: center;">Actual score - 
+                         <input type="text" [(ngModel)]="totalRuns" (input)="validateScore()"></td>
+
+            </tr>
+            <tr>
+                <td>Lower Range</td>
+                <td>Upper Range</td>
+                <td>Your Score</td>
+            </tr>
+
+            <tr>
+                <td>{{totalRuns-10}} - {{totalRuns-1}}</td>
+                <td>{{totalRuns*1 + 1}} - {{totalRuns*1+10}}</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-20}} - {{totalRuns-11}}</td>
+                <td>{{totalRuns + 11}} - {{totalRuns+20}}</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="score-tables-even">
+        <p style="color: crimson;font-weight: 600;text-align: center;"> Total Boundaries</p>
+        <table class="table-bordered table-dark">
+            <tr>
+                <td colspan="2">Actual score - {{totalRuns}}</td>
+
+            </tr>
+            <tr>
+                <td>Lower Range</td>
+                <td>Upper Range</td>
+                <td>Your Score</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-10}} - {{totalRuns-1}}</td>
+                <td>{{totalRuns + 1}} - {{totalRuns+10}}</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-20}} - {{totalRuns-11}}</td>
+                <td>{{totalRuns + 11}} - {{totalRuns+20}}</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+        </table>
+    </div>
+    <div class="score-tables-odd">
+        <p style="color: crimson;font-weight: 600;text-align: center;"> Total runs</p>
+        <table class="table-bordered table-dark table-bordered">
+            <tr>
+                <td colspan="3" style="text-align: center;">Actual score - {{totalRuns}}</td>
+
+            </tr>
+            <tr>
+                <td>Lower Range</td>
+                <td>Upper Range</td>
+                <td>Your Score</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-10}} - {{totalRuns-1}}</td>
+                <td>{{totalRuns + 1}} - {{totalRuns+10}}</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-20}} - {{totalRuns-11}}</td>
+                <td>{{totalRuns + 11}} - {{totalRuns+20}}</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="score-tables-even">
+        <p style="color: crimson;font-weight: 600;text-align: center;"> Total Boundaries</p>
+        <table class="table-bordered table-dark">
+            <tr>
+                <td colspan="2">Actual score - {{totalRuns}}</td>
+
+            </tr>
+            <tr>
+                <td>Lower Range</td>
+                <td>Upper Range</td>
+                <td>Your Score</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-10}} - {{totalRuns-1}}</td>
+                <td>{{totalRuns + 1}} - {{totalRuns+10}}</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-20}} - {{totalRuns-11}}</td>
+                <td>{{totalRuns + 11}} - {{totalRuns+20}}</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+        </table>
+    </div>
+    <div class="score-tables-odd">
+        <p style="color: crimson;font-weight: 600;text-align: center;"> Total runs</p>
+        <table class="table-bordered table-dark table-bordered">
+            <tr>
+                <td colspan="3" style="text-align: center;">Actual score - {{totalRuns}}</td>
+
+            </tr>
+            <tr>
+                <td>Lower Range</td>
+                <td>Upper Range</td>
+                <td>Your Score</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-10}} - {{totalRuns-1}}</td>
+                <td>{{totalRuns + 1}} - {{totalRuns+10}}</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-20}} - {{totalRuns-11}}</td>
+                <td>{{totalRuns + 11}} - {{totalRuns+20}}</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="score-tables-even">
+        <p style="color: crimson;font-weight: 600;text-align: center;"> Total Boundaries</p>
+        <table class="table-bordered table-dark">
+            <tr>
+                <td colspan="2">Actual score - {{totalRuns}}</td>
+
+            </tr>
+            <tr>
+                <td>Lower Range</td>
+                <td>Upper Range</td>
+                <td>Your Score</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-10}} - {{totalRuns-1}}</td>
+                <td>{{totalRuns + 1}} - {{totalRuns+10}}</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-20}} - {{totalRuns-11}}</td>
+                <td>{{totalRuns + 11}} - {{totalRuns+20}}</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>{{totalRuns-30}} - {{totalRuns-21}}</td>
+                <td>{{totalRuns + 21}} - {{totalRuns+30}}</td>
+                <td>9</td>
+            </tr>
+        </table>
+    </div> -->
+</div>

@@ -1,0 +1,133 @@
+.MainHeaderDiv {
+	width:100%;
+	margin:auto;
+	background-color:lightblue;
+	padding: 10px 20px;
+	float: left;
+}
+
+.main-image {
+	float: left;
+	
+	
+ 	
+}
+.collapse-table-score{
+	background-color: rgba(48, 43, 43, 0.6);
+	border-radius: 8px;
+	padding: 10px;
+	color: #fff;
+}
+.collapse-down-arrow {
+	background-image: url("../../../assets/images/collapse.png");
+	padding: 11px ;
+    float: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+.main-image img{
+	height: 50px;
+    width: 50px;
+    position: relative;
+    border-radius:50%;
+}
+
+.main-image img:hover{
+	opacity: 0.2;
+}
+
+.main-heading-text {
+	font-weight: 600;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 40px;
+	line-height: 48px;
+}
+
+.main-rule-modal {
+	overflow-y: scroll;
+	max-height: 400px;
+	width:100%;
+} 
+
+.modal-dialog {
+	max-width:500px;
+	padding: 48px 5px;
+
+}
+
+.accuracyCalc {
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+	padding : 0px 63px;
+	background-color: indigo;
+	border-radius: 8px;
+	margin: 2px 2px;
+	margin-right: 13px;
+}
+
+.accuracyTable {
+	width:100%;
+	border: 1px solid rgb(226, 224, 224);
+}
+.playerScoreClass tr td {
+	background-color: rgb(86, 76, 124);
+	width:100%;
+	border: 1px solid rgb(226, 224, 224);
+	margin-top: 20px;
+	color:white;
+	padding:6px;
+	
+}
+
+.accuracyTable input {
+	text-align: center;
+	background-color: rgb(56, 54, 54);
+	border-bottom: 3px solid #ffffff;
+	border-radius: 8px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	color: #ffffff;
+	outline: 0;
+}
+.accuracyTableHeading {
+	color: crimson;
+	font-weight: 900;
+	text-align: center;
+	font-size: 18px;
+	margin: 0;
+	font-family: sans-serif;
+	
+}
+.answerTable {
+	background-color: silver;
+	
+}
+.answerTable tr td {
+	border:1px solid white;
+	padding:2px 5px;
+}
+.question-class {
+	color:green;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.answer-class {
+	color:brown;
+	font-family: Arial, Helvetica, sans-serif;
+}
+@media(max-width:767.98px) {
+	.main-heading-text {
+		font-size: 20px;
+	line-height: 34px;
+	}
+	.mobile-links-div{
+		width: 100%;
+	}
+
+	.accuracyCalc {
+		padding : 2px 15px;
+		
+	}
+}

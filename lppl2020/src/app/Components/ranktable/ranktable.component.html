@@ -1,0 +1,34 @@
+
+<table class="w-100 sortable" style="border: 3px solid black">
+    <tr class="font-header"> 
+        <th style="width:4%;background-color:  #ffe6cc;"></th>
+        <th style="width:10%;background-color:  #ffe6cc;" class="text-center">Rank</th>
+        <th style="width:40%;background-color:  #ffe6cc;" class="text-center" 
+            (click)="sortData('Name')" >Name<span><img  class="sortArrow" src="../../../assets/images/sort-arrow.png"/></span></th>
+        <th style="width:23%;background-color:  #ffe6cc;" class="text-center" 
+            (click)="sortData('Credits_week')">Purple cap<br/>
+            <span style="font-size: x-small;font-style:italic;opacity: 0.8;">(Weekly score)</span><span><img  class="sortArrow" src="../../../assets/images/sort-arrow.png"/></span></th>
+        <th style="width:23%;background-color:  #ffe6cc;" class="text-center" 
+        (click)="sortData('Credits')">Orange Cap<br/>
+        <span style="font-size: x-small;font-style:italic;opacity: 0.8;">(overall score)</span><span><img  class="sortArrow" src="../../../assets/images/sort-arrow.png"/></span></th>
+        
+ 
+    </tr>
+    <tr *ngFor="let rank of ranklist;let i=index" [ngClass]="i%2==0?'evenRow':'oddRow'">
+        <td>
+            <div *ngIf="rank.RankShift.Diff != 0" class="w-100">
+                
+                <span [ngClass]="rank.RankShift.Up?'uparrowClass':'downarrowClass'">
+                    <span class="moveIndicator">{{rank.RankShift.Diff}}</span>
+                </span>
+                <!--<img class="arrowClass"  [src]="rank.RankShift.Up?'../../../assets/images/uparrow.svg':'../../../assets/images/downarrow.svg'"/>-->
+            </div>
+        </td>
+        <td class="text-center">{{rank.Rank}}</td>
+        <td class="text-center">{{rank.Name}}</td>
+        <td class="text-center">{{rank.Credits_week}}</td>
+        <td class="text-center">{{rank.Credits}}</td>
+        
+
+    </tr>
+</table>

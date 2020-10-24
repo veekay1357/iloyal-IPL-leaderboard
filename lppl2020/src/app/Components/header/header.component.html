@@ -1,0 +1,174 @@
+<div class="w-100 float-left">
+    <a data-toggle="modal" data-target="#ruleModal" class="d-none" id="modal-click"></a>
+    <a data-toggle="modal" data-target="#accuracyModal" class="d-none" id="modal-click"></a>
+    <div class="MainHeaderDiv">
+        <div id="logoDiv" class="main-image" >
+
+            <img id="IPL-teams-id" class="main-image" src="/assets/images/LPPL-logo.png" alt="logo" title="Logo"/>
+        </div>
+        <h2 class="text-center float-left pl-4 pt-1 main-heading-text">Leader Board</h2>
+        <a class="d-block d-sm-block d-md-none mt-2" style="cursor: pointer;color: blue;text-decoration: underline; float:right;" (click)=ruleClicked() >Game Rules</a>
+        <div class="float-right mx-auto mobile-links-div">
+        <!-- <a  routerLink="/gamerules" target="_blank">Game Rules</a> -->
+       
+        <a  class="accuracyCalc" style="cursor: pointer;float:left" 
+                                              (click)=liveScoreClicked() >Live Score!!</a> 
+        <a  class="accuracyCalc" style="cursor: pointer; float:left" (click)=accuracyClicked() >Accuracy Score</a> 
+        <a class="d-none d-sm-none d-md-block" style="cursor: pointer;color: blue;text-decoration: underline; float:left" (click)=ruleClicked() >Game Rules</a>
+    </div>
+    </div>
+    
+</div>
+
+<div id="ruleModal" class="modal" tabindex="-1" role="dialog" [style.display]="showRuleModal ? 'block':'none'">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div id="modaltitle"><h5 id='modaltitle' class='modal-title'>Game Rules</h5></div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="hideRuleModal()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="ruleModalBody" id="logoDiv" class="main-rule-modal">
+                    <!-- <img id='modalimage' src={{idUrl}} alt='logo' /> -->
+                    <app-gamerules></app-gamerules>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" (click)="hideRuleModal()">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="accuracyModal" class="modal" tabindex="-1" role="dialog" [style.display]="showAccuracyModal ? 'block':'none'">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div id="modaltitle"><h5 id='modaltitle' class='modal-title'>Accuracy Score Calculator</h5></div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="hideAccuracyModal()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="accuracyModalBody" id="logoDiv" class="main-rule-modal">
+                   
+                    <!-- <app-accuracy-calculator></app-accuracy-calculator> -->
+                    <div class="score-tables-odd">
+                        <p class="accuracyTableHeading" > 
+                            How many runs will the team batting 1st score in the 1st 55 balls of the match?</p>
+                        <p>Input actual score to find your points</p>
+                        <table class="table-bordered table-dark table-bordered accuracyTable">
+                            <tr style="background-color:rgb(57, 57, 94);">
+                                <td colspan="3" style="text-align: center;">actual score  -
+                                    <input type="text" [(ngModel)]="totalRuns" (input)="validateScore()"
+                                      placeholder="Input actual score"></td>
+                
+                            </tr>
+                            <tr style="text-align: center;background-color:rgb(48, 48, 99);">
+                                <td>Lower Range</td>
+                                <td>Upper Range</td>
+                                <td>Your Points</td>
+                            </tr>
+                            <tr *ngFor="let range of ranges" style="text-align: center;">
+                                <td>{{range.lower}}</td>
+                                <td>{{range.upper}}</td>
+                                <td>{{range.score}}</td>
+                            </tr>
+                             <!-- <tr>
+                                <td>{{totalRuns-10}} - {{totalRuns-1}}</td>
+                                <td>{{totalRuns + 1}} - {{totalRuns+10}}</td>
+                                <td>15</td>
+                            </tr> -->
+                            
+                        </table> 
+                    </div>   
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" (click)="hideAccuracyModal()">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="liveScoreModal" class="modal" tabindex="-1" role="dialog" [style.display]="showLiveScore ? 'block':'none'">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div id="modaltitle"><h5 id='modaltitle' class='modal-title'>Know your score!!Live</h5></div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="hideLiveScore()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="accuracyModalBody" id="logoDiv" class="main-rule-modal">
+                    
+                    <!-- <app-accuracy-calculator></app-accuracy-calculator> -->
+                    <div class="score-tables-odd">
+                    <div class="collapse-table-score" data-toggle="collapse" data-target="#collapse1"
+                    (click)="toggleAnsTableDisplay()">
+                         <a >Right Answers</a>
+                         <span class="collapse-down-arrow"></span>
+                    </div>
+                    <div id="collapse1" *ngIf="showHideAnsTable" >
+                        <table class="table-bordered table-bordered answerTable">
+                            <tr >
+                                <td colspan="2" class="text-center" 
+                                style="background-color: rgb(160, 131, 179);font-weight: 600;font-size: 18px;">{{today_match}}</td>
+                            </tr>
+                            <tr style="background-color: rgb(176, 224, 216);text-align: center;" >
+                                <td>Questions</td>
+                                <td>Results</td>
+                            </tr>
+                            <tr>
+                                <td class="question-class" >{{rightAnswer.Ques1}} </td>
+                                <td class="answer-class">{{rightAnswer.Ans1}}</td>
+                            </tr>
+                            <tr>
+                                <td class="question-class" >{{rightAnswer.Ques2}} </td>
+                                <td class="answer-class">{{rightAnswer.Ans2}}</td>
+                            </tr>
+                            <tr>
+                                <td class="question-class" >{{rightAnswer.Ques3}} </td>
+                                <td class="answer-class">{{rightAnswer.Ans3}}</td>
+                            </tr>
+                            <tr>
+                                <td class="question-class" >{{rightAnswer.Ques4}} </td>
+                                <td class="answer-class">{{rightAnswer.Ans4}}</td>
+                            </tr>
+                            <tr>
+                                <td class="question-class" >{{rightAnswer.Ques5}} </td>
+                                <td class="answer-class" >{{rightAnswer.Ans5}}</td>
+                            </tr>
+                        </table> 
+                    </div>
+
+                    <div class="collapse-table-score mt-2" data-toggle="collapse" data-target="#collapse1"
+                    (click)="toggleScoreTableDisplay()">
+                        <a >Your Score - Live</a>
+                        <span class="collapse-down-arrow"></span>
+                   </div>
+                   <div *ngIf="showHidePlayerTable"> 
+                        <table class="table-bordered playerScoreClass">
+                            <tr>
+                                <td style="background-color:  rgb(105, 87, 173);">Name</td>
+                                <td style="background-color:  rgb(105, 87, 173);">Score so far</td>
+                            </tr>
+                            <tr *ngFor="let score of playerScore">
+                                <td>{{score.name}}</td>
+                                <td>{{score.totalscore}}</td>
+                                
+                            </tr>
+                        </table>
+                    </div>
+                    </div>   
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" (click)="hideLiveScore()">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

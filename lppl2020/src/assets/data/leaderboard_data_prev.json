@@ -1,0 +1,902 @@
+[
+   {
+      "Rank":1,
+      "Name":"Sheeba P J",
+      "Credits":978,
+      "Credits_week":214
+   },
+   {
+      "Rank":2,
+      "Name":"Sanjai Sasi",
+      "Credits":965,
+      "Credits_week":142
+   },
+   {
+      "Rank":3,
+      "Name":"Bindu John",
+      "Credits":956,
+      "Credits_week":162
+   },
+   {
+      "Rank":4,
+      "Name":"Joseph Jolly Palathinkal",
+      "Credits":947,
+      "Credits_week":178
+   },
+   {
+      "Rank":4,
+      "Name":"Ramakrishnan Kolappan",
+      "Credits":947,
+      "Credits_week":146
+   },
+   {
+      "Rank":5,
+      "Name":"Tinto Jose",
+      "Credits":937,
+      "Credits_week":175
+   },
+   {
+      "Rank":6,
+      "Name":"Bineesh Mohan",
+      "Credits":922,
+      "Credits_week":163
+   },
+   {
+      "Rank":7,
+      "Name":"Anupriya N",
+      "Credits":915,
+      "Credits_week":142
+   },
+   {
+      "Rank":8,
+      "Name":"Balachandran V S",
+      "Credits":906,
+      "Credits_week":210
+   },
+   {
+      "Rank":9,
+      "Name":"Reshna Ravi",
+      "Credits":904,
+      "Credits_week":208
+   },
+   {
+      "Rank":10,
+      "Name":"Gopikrishnan Ramachandran",
+      "Credits":898,
+      "Credits_week":167
+   },
+   {
+      "Rank":11,
+      "Name":"Prasanth Kumar T",
+      "Credits":876,
+      "Credits_week":150
+   },
+   {
+      "Rank":12,
+      "Name":"Narayanan Unni D",
+      "Credits":874,
+      "Credits_week":162
+   },
+   {
+      "Rank":13,
+      "Name":"Priyadharshini K",
+      "Credits":872,
+      "Credits_week":203
+   },
+   {
+      "Rank":14,
+      "Name":"Parvathy V",
+      "Credits":870,
+      "Credits_week":153
+   },
+   {
+      "Rank":14,
+      "Name":"Nithinlal C G",
+      "Credits":870,
+      "Credits_week":132
+   },
+   {
+      "Rank":15,
+      "Name":"Rohini R",
+      "Credits":867,
+      "Credits_week":192
+   },
+   {
+      "Rank":16,
+      "Name":"Drisya N",
+      "Credits":854,
+      "Credits_week":125
+   },
+   {
+      "Rank":17,
+      "Name":"Krishnachand S",
+      "Credits":846,
+      "Credits_week":167
+   },
+   {
+      "Rank":17,
+      "Name":"Shrikant S Nair",
+      "Credits":846,
+      "Credits_week":151
+   },
+   {
+      "Rank":18,
+      "Name":"Anitha S",
+      "Credits":840,
+      "Credits_week":151
+   },
+   {
+      "Rank":19,
+      "Name":"Johnson Joseph",
+      "Credits":820,
+      "Credits_week":160
+   },
+   {
+      "Rank":20,
+      "Name":"Sanal Thomas",
+      "Credits":819,
+      "Credits_week":198
+   },
+   {
+      "Rank":21,
+      "Name":"Nazeerudheen M",
+      "Credits":816,
+      "Credits_week":135
+   },
+   {
+      "Rank":22,
+      "Name":"Krishna Prabhu R",
+      "Credits":810,
+      "Credits_week":153
+   },
+   {
+      "Rank":23,
+      "Name":"Infant Frederic",
+      "Credits":808,
+      "Credits_week":188
+   },
+   {
+      "Rank":24,
+      "Name":"Jiju Mathew",
+      "Credits":802,
+      "Credits_week":105
+   },
+   {
+      "Rank":25,
+      "Name":"Vishnu Priya K",
+      "Credits":799,
+      "Credits_week":144
+   },
+   {
+      "Rank":26,
+      "Name":"Gopu S",
+      "Credits":793,
+      "Credits_week":128
+   },
+   {
+      "Rank":27,
+      "Name":"Drisya B Nair",
+      "Credits":773,
+      "Credits_week":88
+   },
+   {
+      "Rank":28,
+      "Name":"Sowmya K F",
+      "Credits":766,
+      "Credits_week":196
+   },
+   {
+      "Rank":29,
+      "Name":"Deepu J S",
+      "Credits":764,
+      "Credits_week":149
+   },
+   {
+      "Rank":30,
+      "Name":"Shankar Maharajan P",
+      "Credits":763,
+      "Credits_week":106
+   },
+   {
+      "Rank":31,
+      "Name":"Betty George",
+      "Credits":748,
+      "Credits_week":120
+   },
+   {
+      "Rank":32,
+      "Name":"Shanu P R",
+      "Credits":744,
+      "Credits_week":150
+   },
+   {
+      "Rank":33,
+      "Name":"Naziya Nizar",
+      "Credits":743,
+      "Credits_week":170
+   },
+   {
+      "Rank":34,
+      "Name":"Arun Rajeev K",
+      "Credits":742,
+      "Credits_week":159
+   },
+   {
+      "Rank":34,
+      "Name":"Vivek Karuppusamy",
+      "Credits":742,
+      "Credits_week":92
+   },
+   {
+      "Rank":35,
+      "Name":"Vivekanand Krishnakumar Sreekumaryamma",
+      "Credits":741,
+      "Credits_week":151
+   },
+   {
+      "Rank":36,
+      "Name":"Amal James",
+      "Credits":725,
+      "Credits_week":151
+   },
+   {
+      "Rank":37,
+      "Name":"Venkatesh T S",
+      "Credits":710,
+      "Credits_week":90
+   },
+   {
+      "Rank":38,
+      "Name":"Biny Alias",
+      "Credits":698,
+      "Credits_week":130
+   },
+   {
+      "Rank":39,
+      "Name":"Nitesh Naveen",
+      "Credits":681,
+      "Credits_week":98
+   },
+   {
+      "Rank":40,
+      "Name":"Arunkumar M S",
+      "Credits":676,
+      "Credits_week":83
+   },
+   {
+      "Rank":41,
+      "Name":"Kichu M S",
+      "Credits":668,
+      "Credits_week":102
+   },
+   {
+      "Rank":42,
+      "Name":"Seenia Mathew",
+      "Credits":642,
+      "Credits_week":100
+   },
+   {
+      "Rank":42,
+      "Name":"Shafeek N A",
+      "Credits":642,
+      "Credits_week":83
+   },
+   {
+      "Rank":43,
+      "Name":"Vivek Rathindran",
+      "Credits":639,
+      "Credits_week":181
+   },
+   {
+      "Rank":44,
+      "Name":"Sruthy K",
+      "Credits":626,
+      "Credits_week":85
+   },
+   {
+      "Rank":45,
+      "Name":"Pravitha P S",
+      "Credits":622,
+      "Credits_week":146
+   },
+   {
+      "Rank":46,
+      "Name":"Soumya Vishnumohan",
+      "Credits":606,
+      "Credits_week":171
+   },
+   {
+      "Rank":47,
+      "Name":"Neenu Wilson",
+      "Credits":600,
+      "Credits_week":23
+   },
+   {
+      "Rank":48,
+      "Name":"Abhaya S L",
+      "Credits":590,
+      "Credits_week":48
+   },
+   {
+      "Rank":49,
+      "Name":"Nimisha Korambath",
+      "Credits":584,
+      "Credits_week":100
+   },
+   {
+      "Rank":50,
+      "Name":"Marcus Puffer",
+      "Credits":571,
+      "Credits_week":169
+   },
+   {
+      "Rank":51,
+      "Name":"Kumaraswamy N S",
+      "Credits":558,
+      "Credits_week":129
+   },
+   {
+      "Rank":52,
+      "Name":"Blesson Chacko",
+      "Credits":554,
+      "Credits_week":98
+   },
+   {
+      "Rank":53,
+      "Name":"Paul Eldho",
+      "Credits":537,
+      "Credits_week":58
+   },
+   {
+      "Rank":54,
+      "Name":"Anish Antony",
+      "Credits":531,
+      "Credits_week":36
+   },
+   {
+      "Rank":55,
+      "Name":"Sreekutty K Nair",
+      "Credits":507,
+      "Credits_week":101
+   },
+   {
+      "Rank":56,
+      "Name":"Shinu Ramakrishna Pillai",
+      "Credits":504,
+      "Credits_week":134
+   },
+   {
+      "Rank":57,
+      "Name":"Sruthi Kottaparambath",
+      "Credits":501,
+      "Credits_week":100
+   },
+   {
+      "Rank":58,
+      "Name":"Ansumole Chacko A",
+      "Credits":472,
+      "Credits_week":75
+   },
+   {
+      "Rank":59,
+      "Name":"Divya Thomas",
+      "Credits":469,
+      "Credits_week":121
+   },
+   {
+      "Rank":60,
+      "Name":"Ashok R S",
+      "Credits":398,
+      "Credits_week":50
+   },
+   {
+      "Rank":61,
+      "Name":"Jerry M R Paul",
+      "Credits":397,
+      "Credits_week":35
+   },
+   {
+      "Rank":62,
+      "Name":"Balu S Chidambar",
+      "Credits":384,
+      "Credits_week":76
+   },
+   {
+      "Rank":63,
+      "Name":"Sari Rajeswary",
+      "Credits":250,
+      "Credits_week":0
+   },
+   {
+      "Rank":64,
+      "Name":"Sobin Babu",
+      "Credits":224,
+      "Credits_week":0
+   },
+   {
+      "Rank":65,
+      "Name":"Nicy Antony K",
+      "Credits":212,
+      "Credits_week":0
+   },
+   {
+      "Rank":66,
+      "Name":"Julious David T",
+      "Credits":163,
+      "Credits_week":0
+   },
+   {
+      "Rank":67,
+      "Name":"Dinoj Varghese",
+      "Credits":140,
+      "Credits_week":0
+   },
+   {
+      "Rank":68,
+      "Name":"Rineesh M Ramadasan",
+      "Credits":130,
+      "Credits_week":0
+   },
+   {
+      "Rank":68,
+      "Name":"Sheeja J",
+      "Credits":130,
+      "Credits_week":0
+   },
+   {
+      "Rank":69,
+      "Name":"Ebi Joseph",
+      "Credits":120,
+      "Credits_week":0
+   },
+   {
+      "Rank":70,
+      "Name":"Brijesh Kumar Gupta",
+      "Credits":110,
+      "Credits_week":0
+   },
+   {
+      "Rank":70,
+      "Name":"Vrinda P",
+      "Credits":110,
+      "Credits_week":0
+   },
+   {
+      "Rank":71,
+      "Name":"Geethu Krishna",
+      "Credits":105,
+      "Credits_week":0
+   },
+   {
+      "Rank":72,
+      "Name":"Deepa Joseph",
+      "Credits":100,
+      "Credits_week":0
+   },
+   {
+      "Rank":73,
+      "Name":"Hui Ji",
+      "Credits":95,
+      "Credits_week":0
+   },
+   {
+      "Rank":74,
+      "Name":"Susha Nagendran",
+      "Credits":93,
+      "Credits_week":23
+   },
+   {
+      "Rank":75,
+      "Name":"Ganesh N",
+      "Credits":80,
+      "Credits_week":0
+   },
+   {
+      "Rank":76,
+      "Name":"Mridula Krishna Kumar",
+      "Credits":70,
+      "Credits_week":0
+   },
+   {
+      "Rank":76,
+      "Name":"Subha V",
+      "Credits":70,
+      "Credits_week":0
+   },
+   {
+      "Rank":77,
+      "Name":"Nithyalakshmi K",
+      "Credits":60,
+      "Credits_week":0
+   },
+   {
+      "Rank":77,
+      "Name":"Suneesh P S",
+      "Credits":60,
+      "Credits_week":0
+   },
+   {
+      "Rank":78,
+      "Name":"Noma Hiroki",
+      "Credits":53,
+      "Credits_week":0
+   },
+   {
+      "Rank":79,
+      "Name":"Georgekutty Alex",
+      "Credits":50,
+      "Credits_week":0
+   },
+   {
+      "Rank":79,
+      "Name":"Maria Jesu Raja",
+      "Credits":50,
+      "Credits_week":0
+   },
+   {
+      "Rank":80,
+      "Name":"Nadiya R",
+      "Credits":40,
+      "Credits_week":30
+   },
+   {
+      "Rank":81,
+      "Name":"Jawad Babu",
+      "Credits":36,
+      "Credits_week":0
+   },
+   {
+      "Rank":82,
+      "Name":"Abhilash S",
+      "Credits":30,
+      "Credits_week":0
+   },
+   {
+      "Rank":82,
+      "Name":"Deepa Easwar",
+      "Credits":30,
+      "Credits_week":0
+   },
+   {
+      "Rank":82,
+      "Name":"Jomy Joseph",
+      "Credits":30,
+      "Credits_week":0
+   },
+   {
+      "Rank":82,
+      "Name":"Nimisha K M",
+      "Credits":30,
+      "Credits_week":0
+   },
+   {
+      "Rank":82,
+      "Name":"Persis Ann Unni",
+      "Credits":30,
+      "Credits_week":0
+   },
+   {
+      "Rank":82,
+      "Name":"Vipin B S",
+      "Credits":30,
+      "Credits_week":0
+   },
+   {
+      "Rank":83,
+      "Name":"Anoop S G",
+      "Credits":20,
+      "Credits_week":0
+   },
+   {
+      "Rank":83,
+      "Name":"Deena J Sulfikar",
+      "Credits":20,
+      "Credits_week":0
+   },
+   {
+      "Rank":83,
+      "Name":"Saumya Sara Roy",
+      "Credits":20,
+      "Credits_week":0
+   },
+   {
+      "Rank":84,
+      "Name":"Syed Masood",
+      "Credits":10,
+      "Credits_week":0
+   },
+   {
+      "Rank":84,
+      "Name":"Ullas Prabhakar",
+      "Credits":10,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Anil Abraham",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Anjana Pillai",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Asha Vijayan",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Beena George",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Binay R Warrier",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Cherian P Bright",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Chinju Joseph",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Devidayal Soman",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Divya Das",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Gincy Ann George",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Greeshma M S",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Hareesh K P",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Helen Dalia Devis",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Jeena K A",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Jomon George",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Krishnaprasad K K",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Mani Manoj Mani",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Manu C Nair",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Mithun Mohan",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Mridul Thomas",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Neethu Jaiboy",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Prasoon V Vadhyanmana",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Praveen P C",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Rahul Nair",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Rajeev S R",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Rakhi Krishnan N R",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Reefa Mary",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Remya Menon",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Reshma J Padmakumar",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Reshmi Sasidharan Pillai",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Ricardo Diaz",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Rinaldo Anto I",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Roniya Pius",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Roshni A Joseph",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Sajeera S",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Sarath Kalathiparambil Sasi",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Sherin Shylaja",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Shyam Krishna S S",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Sibu K Sebastian",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Sriraj P G",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Sumi Ravi",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Swaroop K K",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Tintu Joy",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Twinkle Mathew",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Uday Mohan",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Usha Bosco",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Vani Dinesh",
+      "Credits":0,
+      "Credits_week":0
+   },
+   {
+      "Rank":85,
+      "Name":"Viji Venugopal",
+      "Credits":0,
+      "Credits_week":0
+   }
+]

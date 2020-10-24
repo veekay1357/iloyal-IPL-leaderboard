@@ -1,0 +1,33 @@
+
+
+    <div class="tab">
+        <button class="tablinks" (click)="openWeek('Week1')">Week 1</button>
+        <button class="tablinks" (click)="openWeek('Week2')">Week 2</button>
+        <button class="tablinks" (click)="openWeek('Week3')">Week 3</button>
+        <button class="tablinks" (click)="openWeek('Week4')">Week 4</button>
+        <button class="tablinks  active" (click)="openWeek('Week5')">Week 5</button>
+        <button class="tablinks" (click)="openWeek('Week6')">Week 6</button>
+        <button class="tablinks" (click)="openWeek('Week7')">Week 7</button>
+        <button class="tablinks" (click)="openWeek('Week8')">Week 8</button>
+    </div>
+
+    <div id="Week1" class="tabcontent" *ngIf="tabcontentDisplay">
+        <div class="col-md-4 col-4 float-left">
+            <!--span class="weekwinner1"></span-->
+            <img src={{week_winner.First.img}} height="60px" width="60px"/>
+            <p>{{week_winner.First.Name}}</p>
+        </div>
+        <div class="col-md-4 col-4 float-left">
+            <img src={{week_winner.Second.img}} height="60px" width="60px"/>
+            <p>{{week_winner.Second.Name}}</p>
+        </div>
+        <div class="col-md-4 col-4 float-left">
+            <img src={{week_winner.Third.img}} height="60px" width="60px"/>
+            <p>{{week_winner.Third.Name}}</p>
+        </div>
+        
+
+        
+    </div>
+
+    

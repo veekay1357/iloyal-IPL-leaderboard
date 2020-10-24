@@ -1,0 +1,59 @@
+
+   
+        <!-- p style="font-style: oblique;font-size: 20px;" class="text-center">Yesterday's Winners</p> -->
+        <div class="tabdaily">
+            <div class="tablinks" style="width:100%" onclick="openCity(event, 'Daily1')">
+                <p class="col-md-6 col-6 float-left  pt-2 m-0 ">Yesterday's winners</p> 
+                <p class="col-md-6 col-6 float-left  pt-2 m-0">23-10-2020</p>
+            
+            </div>
+        </div>
+        <div class="tab tab-match-result">
+            <button class="tablinks-match active" (click)="openMatchResult('Match1')">CSK vs MI</button>
+            <!-- <button class="tablinks-match" (click)="openMatchResult('Match2')">MI vs KXIP</button> -->
+        </div>
+        
+        <div id="Daily1" class="tabcontentdaily">
+            <div class="col-md-4 col-4 float-left">
+                <img src={{matchResultSelected.first.img}} height="60px" width="60px"/>
+                <p>{{matchResultSelected.first.name}}</p>
+            </div>
+            <div class="col-md-4 col-4 float-left">
+                <img src="{{matchResultSelected.second.img}}" height="60px" width="60px"/>
+                <p>{{matchResultSelected.second.name}}</p>
+            </div>
+            <div class="col-md-4  col-4 float-left">
+                <img src="{{matchResultSelected.third.img}}" height="60px" width="60px"/>
+                <p>{{matchResultSelected.third.name}}</p>
+            </div>
+            
+            
+        </div>
+        <!-- table id="todayWinnerTableDiv" class="mx-auto" style="border: 2px solid red;position:relative;">
+            <thead>
+                <tr style="background-color:  #b3ffe6;">
+                    <th style="width:50px;border: 2px solid red"></th>
+                    <th style="width:50px;border: 2px solid red">DC vs KXIP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background-color:  #ebf0fa;">
+                    <td style="width:auto;border: 1px solid black;font-family: 'Chaucer Regular', arial;">Date</td>
+                    <td style="width:auto;border: 1px solid black">20-09-2020</td>
+                </tr>
+                <tr style="background-color: #d6e0f5;">
+                    <td style="width:auto;border: 1px solid black">Man of the Match</td>
+                    <td style="width:auto;border: 1px solid black">Shanu P R</td>
+                </tr>
+                <tr style="background-color: #c2d1f0;">
+                    <td style="width:auto;border: 1px solid black">Valuable player</td>
+                    <td style="width:auto;border: 1px solid black">Balachandran V S</td>
+                </tr>
+                <tr style="background-color: #adc2eb;">
+                    <td style="width:auto;border: 1px solid black">Emerging Player</td>
+                    <td style="width:auto;border: 1px solid black">Nicy Antony</td>
+                </tr>
+            </tbody>
+            <tr></tr>
+        </table>-->
+  
